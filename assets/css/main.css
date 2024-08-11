@@ -11,3 +11,7 @@
     background-size: cover;
     background-position: center;
 }
+
+* {
+    font-family: 'Inter', sans-serif;
+}

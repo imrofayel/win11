@@ -44,19 +44,19 @@
 
     </div>
 
-    <div class="px-3 flex space-x-3 text-gray-900/90">
+    <div class="px-3 flex space-x-1 text-gray-900/90">
       
       <div class="space-x-3 hover:bg-white/30 p-2 m-1 rounded-lg hover:border border-gray/10 relative mr-0 hover:scale-[1.04] duration-500 ease-in-out transform"><Icon name="fluent:wifi-1-24-regular" size="21px"></Icon>
 
       <Icon name="fluent:speaker-2-32-regular" size="20px"></Icon>
       <Icon name="fluent:battery-4-28-regular" size="21px"></Icon></div>
 
-      <Icon name="fluent:alert-32-regular" size="23px" class="relative top-3 pr-6 transform hover:scale-110 duration-500 ease-in-out"></Icon>
+      <Icon name="fluent:alert-32-regular" size="23px" class="relative top-3 pr-8 transform hover:scale-110 duration-500 ease-in-out"></Icon>
 
       <img 
         ref="copilotButton"
         src="/assets/Icons/Microsoft_365_Copilot_Icon.svg" 
-        class="icon transform hover:scale-95 duration-500 ease-in-out py-2 scale-[.8]"
+        class="icon transform hover:scale-95 duration-500 ease-in-out py-2 pl-2 scale-[.8]"
         @click="handleClick('storeButton')"
         :class="{ 'clicked': clickedButton === 'storeButton' }"
       />
