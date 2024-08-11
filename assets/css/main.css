@@ -1,0 +1,13 @@
+.background {
+    height: 100vh;
+    background-image: url('/assets/light.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.dark .background {
+    height: 100vh;
+    background-image: url('/assets/dark.jpg');
+    background-size: cover;
+    background-position: center;
+}
